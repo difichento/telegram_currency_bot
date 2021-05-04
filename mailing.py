@@ -11,7 +11,7 @@ def mailing_for_main_menu(message):
         bot.send_message(message.chat.id, f"Сейчас вы подписаны и выбрана валюта валюта: {user_currency}",
                          reply_markup=mailing_keyboard)
     else:
-        bot.send_message(message.chat.id, f"Сейчас вы не подписаны", reply_markup=mailing_keyboard)
+        bot.send_message(message.chat.id, "Сейчас вы не подписаны", reply_markup=mailing_keyboard)
     bot.register_next_step_handler(message, mailing_menu)
 
 
@@ -46,7 +46,7 @@ def subscribe(message):
     else:
         users_database.add_user(message.chat.id)
         bot.send_message(message.chat.id,
-                         f"Вы подписались на рассылку, установлена валюта по умолчанию - RUB",
+                         "Вы подписались на рассылку, установлена валюта по умолчанию - RUB",
                          reply_markup=mailing_keyboard)
     bot.register_next_step_handler(message, mailing_menu)
 

@@ -38,7 +38,7 @@ class UsersDB:
             num = len(self.cursor.fetchall())
             if not self.user_exists_in_database(user_id):
                 self.cursor.execute(
-                    f"INSERT INTO users_database (ID, USER_ID, SUBSCRIPTION, CURRENCY)" +
+                    "INSERT INTO users_database (ID, USER_ID, SUBSCRIPTION, CURRENCY)" +
                     f" VALUES {(num + 1, user_id, subscription, currency)}")
 
     def update_user(self, user_id, subscription=None, currency=None):

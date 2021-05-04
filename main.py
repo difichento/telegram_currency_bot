@@ -4,8 +4,8 @@ from threading import Thread
 
 from converter import converter_for_main_menu
 from courses import send_courses
-from globals import bot, users_database
-from keyboards import currency_keyboard, mailing_keyboard, menu_keyboard
+from globals import bot
+from keyboards import menu_keyboard
 from mailing import mailing_for_main_menu, do_mailing
 
 
@@ -17,12 +17,10 @@ def start(message):
 
 @bot.message_handler(commands=["help"])
 def help(message):
-    bot.send_message(message.chat.id, """РОССИЯ РОССИЯ РОССИЯ РОССИЯ РОССИЯ 
-
-Для навигации используйте кнопки на клавиатуре 
-
-Если вы подпишитесь на рассылку я каждый день в 8:21 МСК буду присылать \
-изменение выбранной валюты в сравнении с предыдущим днём""",
+    bot.send_message(message.chat.id, "РОССИЯ РОССИЯ РОССИЯ РОССИЯ РОССИЯ\n\n" +
+                     "Для навигации используйте кнопки на клавиатуре\n\n" +
+                     "Если вы подпишитесь на рассылку я каждый день в 8:21 МСК буду присылать изменение" +
+                     " выбранной валюты в сравнении с предыдущим днём",
                      reply_markup=menu_keyboard)
 
 
