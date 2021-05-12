@@ -2,7 +2,10 @@
 ##### валютный бот *by difichento*
 
 Бота можно найти в Telegram под ником [@vladimirputinmolodecbot](https://t.me/vladimirputinmolodecbot?start=666)
+
 Для нажать кнопку "Start" или написать /start
+
+Чтобы начать нажать кнопку "Start" или написать /start
 
 #### Бот умеет:
 1. По команде "Курс валют к рублю" парсит [страницу](https://www.alta.ru/currency/) и высылает таблицу с курсами валют.
@@ -20,5 +23,7 @@
 ![](https://a.radikal.ru/a17/2105/52/4bd8fe75ee57.png)
 
 ![](https://d.radikal.ru/d22/2105/6d/3ad822f3e889.png)
+
+![](https://d.radikal.ru/d13/2105/23/d3d1bd0240d0.png)
 
 ![](https://d.radikal.ru/d13/2105/23/d3d1bd0240d0.png)
