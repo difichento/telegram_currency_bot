@@ -1,7 +1,6 @@
-# РОССИЯ РОССИЯ РОССИЯ РОССИЯ РОССИЯ
-##### валютный бот *by difichento*
+### валютный бот *by difichento*
 
-Бота можно найти в Telegram под ником [@vladimirputinmolodecbot](https://t.me/vladimirputinmolodecbot?start=666)
+Бота уже нельзя найти\(
 
 Чтобы начать нажать кнопку "Start" или написать /start
 
